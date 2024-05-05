@@ -1,0 +1,10 @@
+db_info: 
+  name: bd_app  # имя таблицы в БД в которую ведем запись
+  db_connection:  # данные о подключении (должны совпадать со значениями из docker-compose файла)
+    db_name: postgres
+    db_user: postgres
+    db_password: 123456    
+    db_host: localhost
+    db_port: 5432  
+
+
